@@ -4,7 +4,7 @@ from user_data_store import set_user_twilio, get_user_twilio
 import twilio_utils
 import os
 
-TELEGRAM_BOT_TOKEN = os.getenv("BOT_TOKEN") or "your_telegram_bot_token_here"
+TELEGRAM_BOT_TOKEN = os.getenv("BOT_TOKEN") or "7676974479:AAEERPH7cYOjTWms3votUOnjZAGunVyXJAY"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Welcome to the Twilio Number Manager Bot!\nUse /set_twilio <SID> <TOKEN> to begin.")
